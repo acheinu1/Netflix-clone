@@ -12,7 +12,8 @@ export const  Background = styled.div`
 `;
 
 export const  Frame = styled.div`
-
+  display: flex;
+  flex-direction: column;
 `;
 
 export const  Container = styled.div`
@@ -33,8 +34,8 @@ a {
 `;
 
 export const  Logo = styled.img`
-height: 32px;
-width: 108px;
+height: 38px;
+width: 135px;
 margin-right: 40px;
 
   @media (min-width: 1449px) {
